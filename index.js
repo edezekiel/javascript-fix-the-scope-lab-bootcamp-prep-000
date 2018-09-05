@@ -20,6 +20,21 @@ function add2(n) {
 
   // Feel free to move things around!
 }
+
+var zed = function x () {return "FUNKY!"}
+
+
+function a () { 
+  zed()
+}
+
+
+
+// function() = function x
+// funkyFunction = function a
+
+//original
+
 var theFunk = funkyFunction()
 
 var funkyFunction = function() {
